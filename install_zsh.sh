@@ -9,11 +9,11 @@ if [ -z "$1" ]; then
 fi
 #高亮
 echo "下载高亮插件"
-git clone <https://github.com/zsh-users/zsh-syntax-highlighting.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 echo ""
 #自动补全
 echo "下载自动补全插件"
-git clone <https://github.com/zsh-users/zsh-autosuggestions> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 echo ""
 echo "手动添加插件到 .zshrc (zsh-autosuggestions zsh-syntax-highlighting)"
 echo ""
